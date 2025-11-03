@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Error #1: Root element should be <Hotels> but is now <Hotel> -->
+<Hotel>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480‑968‑8885</Phone>
+    <Phone>800‑937‑8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel> 
+    <Name>The Cosmopolitan of Las Vegas</Name>
+    <!-- Error #2: Missing required Rating attribute -->
+    <Phone>702‑675‑9828</Phone>
+    <Phone>855‑435‑0005</Phone>
+    <Address>
+      <Number>3708</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Planet Hollywood Resort & Casino</Name>
+    <!-- Error #3: Missing Phone element -->
+    <Address>
+      <Number>3667</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.6">
+    <Name>Caesars Palace</Name>
+    <Phone>866‑227‑5938</Phone>
+    <Phone>702‑731‑7110</Phone>
+    <!-- Error #4: Address element not properly closed -->
+    <Address>
+      <Number>3570</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+      <NearestAirport>Harry Reid (LAS)
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <!-- Error #5: Two names for the same hotel -->
+    <Name>Bellagio</Name>
+    <Name>Bellagio Luxury Resort</Name>
+    <Phone>702‑693‑7111</Phone>
+    <Address>
+      <Number>3600</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Wynn Las Vegas</Name>
+    <Phone>702‑770‑7900</Phone>
+    <Address>
+      <Number>3131</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <Name>The Venetian Resort Las Vegas</Name>
+    <Phone>702‑414‑1000</Phone>
+    <Address>
+      <Number>3355</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <Name>Mandalay Bay Resort & Casino</Name>
+    <Phone>702‑632‑7777</Phone>
+    <Address>
+      <Number>3950</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89119</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.2">
+    <Name>ARIA Resort & Casino</Name>
+    <Phone>702‑590‑7111</Phone>
+    <Address>
+      <Number>3730</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89158</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.9">
+    <Name>Luxor Hotel & Casino</Name>
+    <Phone>702‑262‑4444</Phone>
+    <Address>
+      <Number>3900</Number>
+      <Street>Las Vegas Boulevard South</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89119</Zip>
+      <NearestAirport>Harry Reid (LAS)</NearestAirport>
+    </Address>
+  </Hotel>
+</Hotel>
