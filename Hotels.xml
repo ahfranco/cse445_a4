@@ -29,7 +29,7 @@
   </Hotel>
 
   <Hotel Rating="4.0">
-    <Name>Planet Hollywood Resort & Casino</Name>
+    <Name>Planet Hollywood Resort &amp; Casino</Name>
     <Phone>866‑919‑7472</Phone>
     <Phone>702‑785‑5555</Phone>
     <Address>
@@ -96,7 +96,7 @@
   </Hotel>
 
   <Hotel Rating="4.1">
-    <Name>Mandalay Bay Resort & Casino</Name>
+    <Name>Mandalay Bay Resort &amp; Casino</Name>
     <Phone>702‑632‑7777</Phone>
     <Address>
       <Number>3950</Number>
@@ -109,7 +109,7 @@
   </Hotel>
 
   <Hotel Rating="4.2">
-    <Name>ARIA Resort & Casino</Name>
+    <Name>ARIA Resort &amp; Casino</Name>
     <Phone>702‑590‑7111</Phone>
     <Address>
       <Number>3730</Number>
@@ -122,7 +122,7 @@
   </Hotel>
 
   <Hotel Rating="3.9">
-    <Name>Luxor Hotel & Casino</Name>
+    <Name>Luxor Hotel &amp; Casino</Name>
     <Phone>702‑262‑4444</Phone>
     <Address>
       <Number>3900</Number>
